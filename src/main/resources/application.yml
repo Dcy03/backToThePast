@@ -1,0 +1,8 @@
+server:
+  port: 8897
+  servlet:
+    context-path: /if
+#切换环境
+spring:
+  profiles:
+    active: local
